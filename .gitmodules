@@ -1,0 +1,3 @@
+[submodule "Sharepack"]
+	path = Sharepack
+	url = git@github.com:artur-gurgul-pro/sharepack.git
