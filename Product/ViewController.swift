@@ -12,7 +12,6 @@ import SPRepositories
 import SPContract
 import SPModels
 
-
 class ViewController: UIViewController {
     
     var cancelables = Set<AnyCancellable>()
@@ -33,3 +32,9 @@ class ViewController: UIViewController {
     }
 }
 
+
+import SPCCode
+
+struct Test {
+    let point = MyPoint(x: 4, y: 6)
+}
