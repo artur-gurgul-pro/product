@@ -29,6 +29,9 @@ class ViewController: UIViewController {
                 let map = users.dictionay(keyPath: \.id)
                 print(map[1]?.name)
             }.store(in: &cancelables)
+        
+        
+        print("fib(3) = \(call(3))")
     }
 }
 
